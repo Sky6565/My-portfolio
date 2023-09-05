@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Site title-->
+    <title>Godwin Otabor</title>
+    <!-- Link to CSS stylesheet-->
+    <link type="text/css" rel="stylesheet" href="./assets/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar-->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Meet Godwin</a></li>
+          <li><a href="#truffle-shuffle">Portfolio</a></li>
+          <li><a href="#social-media">Social Media</a></li>
+          <li><a href="#contact-form">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main content start -->
+    <div class="main">
+      <!-- Line break-->
+      <hr />
+      <!-- Bio picture and main content text container-->
+      <div class="container">
+        <img
+          class="container__image"
+          src="./assets/images/Profile picture.jpeg"
+          alt="profile picture"
+        />
+        <div class="container__text">
+          <h2>Hi there, I'm Godwin!</h2>
+          <p>
+            "Cats like boxes because they are cryptic animals; they like to
+            hide," Stephen Zawistowski, science adviser for the American Society
+            for the Prevention of Cruelty to Animals, told Business Insider.
+            "And a box gives them a place of safety and security."
+          </p>
+          <p>
+            While inside a box, cats feel that they cannot be snuck up on from
+            behind or the side — anything that wants to approach them must come
+            directly into their field of vision. In effect, such hiding spaces
+            allow them to watch the world around them without being seen.
+          </p>
+          <a href="mailto:godwin1988b@outlook.com">Send Godwin an Email Here</a>
+        </div>
+      </div>
+
+      <!-- Showcased porfolio content-->
+      <h2>Portfolio</h2>
+      <div class="content" id="No-Fox-Given">
+        <a
+          href="https://sky6565.github.io/No-Fox-Given/"
+          target="_blank"
+          title="No-Fox-Given"
+        >
+          <img
+            src="./assets/images/No-Fox-Given.png"
+            alt="No-Fox-Given online Journal project"
+            style="width: 100%"
+        /></a>
+        <h3>No-Fox-Given</h3>
+        <p>Online Journal</p>
+      </div>
+
+      <!-- Start of portfolio gallery -->
+      <div class="row">
+        <!-- First card-->
+        <div class="column">
+          <div class="content">
+            <a
+              href="https://sky6565.github.io/Code-quiz//"
+              target="_blank"
+              title="Code quiz"
+            >
+              <img
+                src="./assets/images/CodeQuiz.png"
+                alt="Code quiz project"
+                style="width: 100%"
+            /></a>
+            <h3>CodeQuiz</h3>
+            <p>..</p>
+          </div>
+        </div>
+
+        <!-- Second card-->
+        <div class="column">
+          <div class="content">
+            <a
+              href="https://sky6565.github.io/schedule-calendar/"
+              target="_blank"
+              title="schedule-calendar"
+            >
+              <img
+                src="./assets/images/Work-day-scheduler.png"
+                alt="schedule-calendar"
+                style="width: 100%"
+            /></a>
+            <h3>schedule-calendar</h3>
+            <p>..</p>
+          </div>
+        </div>
+
+        <!-- Third card-->
+        <div class="column">
+          <div class="content">
+            <a
+              href="https://sky6565.github.io/PASSWORD-GENERATOR/"
+              target="_blank"
+              title="Password Generator"
+            >
+              <img
+                src="./assets/images/password generator.png"
+                alt="password generator project"
+                style="width: 100%"
+            /></a>
+            <h3>Password Generator</h3>
+            <p>Help chose a secure password</p>
+          </div>
+        </div>
+
+        <!-- Fourth card-->
+        <div class="column">
+          <div class="content">
+            <a
+              href="https://sky6565.github.io/WeatherMap/"
+              target="_blank"
+              title="Weather Map"
+            >
+              <img
+                src="./assets/images/WeatherMap.png"
+                alt="Weather Map"
+                style="width: 100%"
+            /></a>
+            <h3>Weather Map</h3>
+            <p>Server side api Weather Map..</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Line break-->
+      <hr />
+
+      <!-- Social media section-->
+      <section>
+        <h2>Social Media Links</h2>
+        <ul class="social-media-list" id="social-media">
+          <li>
+            <a href="https://github.com/Sky6565" target="_blank"
+              ><img
+                src="./assets/images/GitHub-Icon.png"
+                alt="GitHub"
+                title="GitHub"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/godwin-otabor-b92177260/"
+              target="_blank"
+              ><img
+                src="./assets/images/LinkedIn-Icon.png"
+                alt="LinkedIn"
+                title="LinkedIn"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://stackoverflow.com/users/21943776/skyeasy"
+              target="_blank"
+              ><img
+                src="./assets/images/StackOverflow-Icon.png"
+                alt="Stack Overflow"
+                title="Stack Overflow"
+            /></a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Line break-->
+      <hr />
+
+      <!-- Form container-->
+      <div class="container" id="contact-form">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="First name"
+          />
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Last name"
+          />
+          <label for="subject">Comments</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Type here"
+            style="height: 200px"
+          ></textarea>
+          <input type="submit" value="submit!" disabled />
+        </form>
+      </div>
+
+      <!-- Footer-->
+      <footer>
+        <h5>Designed by Godwin Otabor | 2023</h5>
+      </footer>
+    </div>
+  </body>
+</html>
